@@ -30,5 +30,7 @@ In order to install the python-dotenv package you will already have to have pip 
 *AWS_SESSION_TOKEN=your_session_token*
 *AWS_REGION=eu-central-1*
 
-3. The final step is to run the script and create a S3_Bucket backup file and save it as a .zip file, to execute the script run:
+3. The next step would be to list all of the buckets for backup inside of a `buckets.txt` file. List them in the form of bucket names listed in new rows of the .txt file.
+
+4. The final step is to run the script and create a S3_Bucket backup file and save it as a .zip file, to execute the script run:
 `python backup.py`
